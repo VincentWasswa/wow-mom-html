@@ -179,10 +179,17 @@ a {
   margin-top: 12px;
   float: left;
 }
+#packages .row .package-wrap .inna {
+  float: left;
+}
+#packages .row .package-wrap .inna h2 {
+  font-weight: 700;
+  color: var(--wm-green);
+}
+#packages .row .package-wrap .inna p {
+  font-size: 14px;
+}
 @media (min-width: 768px) {
-  #packages .row .col-md-6:nth-child(2) {
-    margin-top: 90px;
-  }
   #packages .row .col-md-6:nth-child(3) {
     margin-top: -90px;
   }
@@ -358,7 +365,7 @@ a {
 }
 #about-banner h1 {
   position: relative;
-  bottom: -33px;
+  bottom: -42px;
   font-size: 60px;
   color: var(--wm-brown);
 }
@@ -393,7 +400,6 @@ a {
 }
 .about-content .about-wow-mom h2 {
   font-weight: bold;
-  margin-bottom: 40px;
   color: var(--wm-brown);
 }
 .about-content .about-wow-mom p {
@@ -443,10 +449,11 @@ a {
 }
 .about-content .more-about .row .acc .acc__card .acc__panel {
   color: var(--bs-gray-700);
+  font-family: 'Bambino-Light';
   display: none;
   margin: 0;
   padding: 2em;
-  font-size: 15px;
+  background: #f7f7f7;
 }
 #service-header {
   background: var(--wm-green);
@@ -478,8 +485,11 @@ a {
 #service-header .row .inner p {
   font-family: 'Bambino-Light';
 }
-#service-header .row img {
-  width: 50%;
+@media (min-width: 768px) {
+  #service-header .row img {
+    width: 50%;
+    margin: 30px;
+  }
 }
 .bg-light-green {
   background: var(--wm-light-green);
