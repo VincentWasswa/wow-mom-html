@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Bambino Bold';
+  src: url(./Bambino+Bold.eot);
+  src: url(./Bambino+Bold.eot?#iefix) format('embedded-opentype'),
+       url(./Bambino+Bold.woff2) format('woff2'),
+       url(./Bambino+Bold.woff) format('woff'),
+       url(./Bambino+Bold.svg#Bambino%20Bold) format('svg');
+}
